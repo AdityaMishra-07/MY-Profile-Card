@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<head>
+    <title>Minor-Project</title>
+    <style>
+        body,html{
+            margin: 0%;
+            padding: 0%;
+            height: 100%;
+            background-color: #16191e;
+
+        }
+        .container{
+            /* height: 100%; */
+            /* background-color: #1b1b1b; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 40px;
+        }
+        h1{
+            color: white;
+        }
+        #projectcontainer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            gap: 40px;
+        }
+        #projectbox{
+            width: 330px;
+            height: 350px;
+            background-color: #292d35;
+            text-align: center;
+            border: 2px solid #4e4e57;
+            border-radius: 20px;
+            transition: transform 0.8s;
+        }
+        #projectbox:hover{
+            transform: scale(1.03);
+            border-color: #6d6d79;
+        }
+        #projectimg{
+            margin-top: 2px;
+            width: 325px;
+            height: 165px;
+            border-radius: 20px;
+            transition: transform 0.8s;
+        }
+        #projectimg:hover{
+            transform: scale(1.02);
+        }
+        h3{
+            color: #a88acd;
+        }
+        p{
+            color: rgb(90, 109, 126);
+        }
+        #demobutton,#sourcebutton{
+            margin: 5px;
+            width: 145px;
+            height: 38px;
+            font-size: 17px;
+            border-radius: 20px;
+            color: rgb(230, 221, 221);
+            cursor: pointer;
+        }
+        #demobutton{
+            background-color: #19964d;
+            border: 1px solid #83b496;
+            transition: transform 0.4s;
+        }
+        #demobutton:hover{
+            background-color: #225638;
+            transform: scale(1.04);
+        }
+        #sourcebutton{
+            background-color:#3168a6;
+            border: 1px solid #86a0c0;
+        }
+        #sourcebutton:hover{
+            background-color: #2a4461;
+            transform: scale(1.04);
+        }
+        #menubar{
+            height: 40px;
+            width: 40px;
+            transition: transform 0.5s;
+        }
+        #menubar:hover{
+            transform: scale(1.04);
+        }
+    </style>
+</head>
+<body>
+    <div class="menubox">
+        <a href="index.html" id="menuLogo"><img src="images/menu-bar.png" id="menubar" alt=""><br><span>Home</span></a>
+    </div>
+    <div class="container">
+        <h1><u>Minor-Projects</u></h1>
+
+        <div class="container1" id="projectcontainer">
+            <div class="box1.1" id="projectbox">
+                <img src="images/InstaProfileViewer.png" id="projectimg" alt="">
+                <h3>Insta Profile Viewer </h3>
+                <p>It is a simple tool that lets users see Instagram profile details and full-size profile pictures using public data.</p>
+                <a href="https://adityamishra-07.github.io/Instagram-Profile-Viewer/">
+                    <button id="demobutton">Live Demo</button>
+                </a>
+                <a href="https://github.com/AdityaMishra-07/Instagram-Profile-Viewer">
+                    <button id="sourcebutton">Source Code</button>
+                </a>
+            </div>
+            <div class="1.2" id="projectbox">
+                <img src="images/GitHubProfileViewer.png" id="projectimg" alt="">
+                <h3>Git-Hub Profile Viewer</h3>
+                <p>It is a simple tool that lets users view GitHub profile details, including repositories, followers, and more, using public data from the GitHub API.</p>
+                <a href="https://adityamishra-07.github.io/Git-Hub-profile-Viewer/">
+                    <button id="demobutton">Live Demo</button>
+                </a>
+                <a href="https://github.com/AdityaMishra-07/Git-Hub-profile-Viewer">
+                    <button id="sourcebutton">Source Code</button>
+                </a>
+            </div>
+            <div class="1.3" id="projectbox">
+                <img src="images/QRGenratar.png" id="projectimg" alt="">
+                <h3>QR-Genratar</h3>
+                <p>It is a simple tool that creates QR codes for text, URLs, or other data, making sharing easy and quick.</p>
+                <a href="https://adityamishra-07.github.io/QR-Genratar/">
+                    <button id="demobutton">Live Demo</button>
+                </a>
+                <a href="https://github.com/AdityaMishra-07/QR-Genratar">
+                    <button id="sourcebutton">Source Code</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="container2" id="projectcontainer">
+            <div class="box2.1" id="projectbox">
+                <img src="images/Counter.png" id="projectimg" alt="">
+                <h3>Counter</h3>
+                <p>It is a simple tool that allows users to increment, decrement, and reset a number, useful for tracking counts easily.</p>
+                <a href="https://adityamishra-07.github.io/Counter/">
+                    <button id="demobutton">Live Demo</button>
+                </a>
+                <a href="https://github.com/AdityaMishra-07/Counter">
+                    <button id="sourcebutton">Source Code</button>
+                </a>
+            </div>
+            <div class="2.2" id="projectbox">
+                <img src="images/BMI Calculator.png" id="projectimg" alt="">
+                <h3>BMI Calculator</h3>
+                <p>It is a simple tool that calculates Body Mass Index (BMI) based on height and weight, helping users assess their health status.</p>
+                <a href="https://adityamishra-07.github.io/BMI-Calculator/">
+                    <button id="demobutton">Live Demo</button>
+                </a>
+                <a href="https://github.com/AdityaMishra-07/BMI-Calculator">
+                    <button id="sourcebutton">Source Code</button>
+                </a>
+            </div>
+            <div class="2.3" id="projectbox">
+                <img src="images/Background-Color-Changer.png" id="projectimg" alt="">
+                <h3>Background Color Changer</h3>
+                <p>It is a simple tool that allows users to change the background color of a webpage with a click or automatically.</p>
+                <a href="https://adityamishra-07.github.io/Background-Color-Changer/">
+                    <button id="demobutton">Live Demo</button>
+                </a>
+                <a href="https://github.com/AdityaMishra-07/Background-Color-Changer">
+                    <button id="sourcebutton">Source Code</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="container3" id="projectcontainer">
+            <div class="box3.1" id="projectbox">
+                <img src="images/Calculator.png" id="projectimg" alt="">
+                <h3>Calculator</h3>
+                <p>It is a simple tool that performs basic arithmetic operations like addition, subtraction, multiplication, and division.</p>
+                <a href="https://adityamishra-07.github.io/Barbie-Calculator/">
+                    <button id="demobutton">Live Demo</button>
+                </a>
+                <a href="https://github.com/AdityaMishra-07/Barbie-Calculator">
+                    <button id="sourcebutton">Source Code</button>
+                </a>
+            </div>
+            <div class="3.2" id="projectbox">
+                <img src="images/Cart Quantity.png" id="projectimg" alt="">
+                <h3>Cart Quantity</h3>
+                <p>It is a simple tool that lets users increase, decrease, and update the quantity of items in a shopping cart.</p><br>
+                <a href="https://adityamishra-07.github.io/Cart-Quantity/">
+                    <button id="demobutton">Live Demo</button>
+                </a>
+                <a href="https://github.com/AdityaMishra-07/Cart-Quantity">
+                    <button id="sourcebutton">Source Code</button>
+                </a>
+            </div>
+            <div class="3.3" id="projectbox">
+                <img src="images/NumberGuessing Game.png" id="projectimg" alt="">
+                <h3>NumberGuessing Game</h3>
+                <p>It is a fun game where users try to guess a randomly generated number within a given range, with hints for guidance.</p>
+                <a href="https://adityamishra-07.github.io/Number-Guessing-Game/">
+                    <button id="demobutton">Live Demo</button>
+                </a>
+                <a href="https://github.com/AdityaMishra-07/Number-Guessing-Game">
+                    <button id="sourcebutton">Source Code</button>
+                </a>
+            </div>
+        </div>
+        <div class="container4" id="projectcontainer">
+            <div class="4.1" id="projectbox">
+                <img src="images/RPS-Game.png" id="projectimg" alt="">
+                <h3>Rock-Paper-Sccissor Game</h3>
+                <p>It is a simple game where users play against the computer by choosing rock, paper, or scissors, with instant win, lose, or draw results.</p>
+                <a href="https://adityamishra-07.github.io/Rock-Paper-Scissor-Game/">
+                    <button id="demobutton">Live Demo</button>
+                </a>
+                <a href="https://github.com/AdityaMishra-07/Rock-Paper-Scissor-Game">
+                    <button id="sourcebutton">Source Code</button>
+                </a>
+            </div>
+            <div class="4.2" id="projectbox">
+                <img src="images/Character Counter.png" id="projectimg" alt="">
+                <h3>Character Counter</h3>
+                <p>It is a simple tool that counts the number of characters and words in a given text in real time.</p><br>
+                <a href="https://adityamishra-07.github.io/Character-Counter/">
+                    <button id="demobutton">Live Demo</button>
+                </a>
+                <a href="https://github.com/AdityaMishra-07/Character-Counter">
+                    <button id="sourcebutton">Source Code</button>
+                </a>
+            </div>
+            <div class="4.3" id="projectbox">
+                <img src="images/bank.png" id="projectimg" alt="">
+                <h3>SmartPay Bank</h3>
+                <p>This is a basic banking website that provides essential financial services such as user authentication, transactions, ATM services.</p>
+                <a href="https://adityamishra-07.github.io/SmartPay-Bank/">
+                    <button id="demobutton">Live Demo</button>
+                </a>
+                <a href="https://github.com/AdityaMishra-07/SmartPay-Bank">
+                    <button id="sourcebutton">Source Code</button>
+                </a>
+            </div>
+            
+        </div>
+        
+    </div>
+</body>
+</html>
+
+
+
+
+<!--
+
+<div class="0.0" id="projectbox">
+    <img src="" id="projectimg" alt="">
+    <h3></h3>
+    <p></p>
+    <a href="">
+        <button id="demobutton">Live Demo</button>
+    </a>
+    <a href="">
+        <button id="sourcebutton">Source Code</button>
+    </a>
+</div>
+
+ -->
